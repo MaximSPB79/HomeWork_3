@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+.top {
+    padding-bottom: 96px;
+}
+
+.header {
+    margin-top: 51px;
+    margin-bottom: 96px;
+}
+
+.title {
+    margin-bottom: 17px;
+}
+
+.button {
+    margin-top: 37px;
+    margin-bottom: 162px;
+    padding-top: 15px;
+    padding-bottom: 16px;
+}
+
+.logos {
+    padding-top: 97px;
+}

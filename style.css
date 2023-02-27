@@ -3,6 +3,15 @@
     padding: 0;
 }
 
+body {
+    font-family: "Roboto", sans-serif;
+}
+
+.center {
+    padding-left: calc(50% - 1174px / 2);
+    padding-right: calc(50% - 1174px / 2);
+}
+
 a {
     text-decoration: none;
 }
@@ -14,19 +23,95 @@ a {
 .header {
     margin-top: 51px;
     margin-bottom: 96px;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: row;
+    gap: 500px;
 }
+
+.header__link{
+    width: 533px;
+    height: 17px;
+    font-size: 14px;
+    line-height: 16px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.link{
+    rgba(0, 0, 0, 1);
+}
+
+.top__content{
+    display: flex;
+    flex-direction: row-reverse;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 41px;
+}
+
 
 .title {
     margin-bottom: 17px;
+    width: 522px;
+    height: 222px;
+    font-size: 60px;
+    line-height: 70px;
+    color: #000000;
 }
 
-.button {
+.text{
+    width: 466px;
+    height: 48px;
+    font-size: 20px;
+    line-height: 23px;
+    color: #888888;
+}
+
+.button__blok{
     margin-top: 37px;
     margin-bottom: 162px;
     padding-top: 15px;
     padding-bottom: 16px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 72px;
+}
+
+.button {
+    width: 140px;
+    height: 50px;
+    background: #F25822;
+    box-shadow: 4px 4px 8px rgba(242, 88, 34, 0.2);
+    border-radius: 50px;
+    font-size: 15px;
+    line-height: 18px;
+    color: #FFFFFF;
+}
+
+.link__button{
+    font-size: 15px;
+    line-height: 18px;
+    color: #AAAAAA;
 }
 
 .logos {
     padding-top: 97px;
+    padding-bottom: 96px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    gap: 48px;
 }
